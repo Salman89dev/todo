@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'RedHatDisplay'),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
